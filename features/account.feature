@@ -6,7 +6,7 @@ Feature: Account
 
 	@acc01
 	Scenario: acc01 - Login
-		Given I am not logged in
+		Given I am not logged in on abc
 		And I am on the log in page
 		When I enter my username
 		And I enter my password
