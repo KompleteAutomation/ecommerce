@@ -31,7 +31,7 @@ Feature: Account
 	Scenario: acc04 - Edit account
 		Given I am logged in on the site
 		When I navigate to the personal information page
-		And I update my details
+		And I update my personal details
 		Then I receive feedback that my account is updated
 
 	@acc05
