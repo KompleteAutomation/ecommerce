@@ -12,7 +12,7 @@ Feature: Locale selector
 		Then The US site is shown
 
 	@loc02
-	Scenario: loc02 - Change locale to non-English
+	Scenario: loc02 - Change locale to non-English language
 		Given I an on the US/Global/General page
 		And I an on the locale selector page
 		When I select a different country than US with a different language
