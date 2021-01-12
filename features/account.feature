@@ -15,7 +15,7 @@ Feature: Account
 
 	@acc02
 	Scenario: acc02 - Logout
-		Given I am logged in on the site
+		Given I am logged in on the abc site
 		When I click the Log out button
 		Then I receive feedback that I am logged out
 		And I cannot visit my account page anymore
